@@ -18,7 +18,7 @@ function MealDetailScreen({route, navigation}: NavigationProps<'MealDetail'>) {
     navigation.setOptions({
       // eslint-disable-next-line react/no-unstable-nested-components
       headerRight: () => {
-        return <IconButton title="Tab" onPress={handleOnPress} />;
+        return <IconButton icon="star" color="#fff" onPress={handleOnPress} />;
       },
     });
   }, [navigation]);
